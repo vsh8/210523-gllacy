@@ -1,0 +1,185 @@
+body {
+  font-family: "Robot", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+
+.site-navigation {
+  font-weigth: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.user-navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.working-hours {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.phone-number {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.special-offers-item h3 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.special-offers h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+}
+
+.special-offers p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.big-button {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.small-button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.catalog-item h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.catalog-item-price {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.catalog-item-kg {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.features,
+.blog-post {
+  color: #323232;
+}
+
+.features h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.blog-post p {
+  font-weight: 500;
+}
+
+.blog-post h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.subscription {
+  color: #5a5a5a;
+}
+
+.contacts {
+  font-size: 14px;
+  line-height: 22px;
+  color: #323232;
+}
+
+.contacts b {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.control-panel-form {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.control-panel-form .control-panel-item-title {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.pagination-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-links {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.footer-links .footer-link-for-suppliers {
+  font-weight: 700;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.modal-login {
+  font-size: 13px;
+}
+
+.modal-feedback h2 {
+  font-weight: 500px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.modal-cart {
+  font-size: 13px;
+  line-height: 16px;
+  color: #323232;
+}
+
+.modal-cart .cart-item-price-per-kg {
+  color: #999999;
+}
+
+.modal-cart .sum-price {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
