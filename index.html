@@ -95,13 +95,19 @@
 
         <ul class="pagination-list">
           <li class="pagination-item pagination-item-selected">
-            <a>1</a>
+            <button class="pagination-button" type="button" disabled>
+              Специальное предложение #1
+            </button>
           </li>
           <li class="pagination-item">
-            <a href="#">2</a>
+            <button class="pagination-button">
+              Специальное предложение #2
+            </button>
           </li>
           <li class="pagination-item">
-            <a href="#">3</a>
+            <button class="pagination=button">
+              Специальное предложение #3
+            </button>
           </li>
         </ul>
 
@@ -132,76 +138,68 @@
         <h2 class="visually-hidden">Предложения из каталога мороженого</h2>
         <ul class="catalog-list">
           <li class="catalog-item">
-            <h3>
-              <a href="#">
+            <a href="#">
+              <h3>
                 Сливочное с апельсиновым<br>
                 джемом и цитрусовой стружкой
-              </a>
-            </h3>
-            <p>
-              <a href="#">
+              </h3>
+              <p class="catalog-item-image">
                 <img src="img/catalog.orange-icecream.jpg" width="267" height="267"
                      alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-              </a>
-              <span class="catalog-item-hit-badge">Хит</span>
-            </p>
+                <span class="catalog-item-hit-badge">Хит</span>
+              </p>
+            </a>
             <p class="catalog-item-price">
               <b>310 ₽/<span class="catalog-item-kg">кг</span></b>
             </p>
           </li>
 
           <li class="catalog-item">
-            <h3>
-              <a href="#">
+            <a href="#">
+              <h3>
                 Сливочно-кофейное с кусочками<br>
                 шоколада
-              </a>
-            </h3>
-            <p>
-              <a href="#">
+              </h3>
+              <p class="catalog-item-image">
                 <img src="img/catalog.coffee-icecream.jpg" width="267" height="267"
                      alt="Сливочно-кофейное с кусочками шоколада">
-              </a>
-              <span class="catalog-item-hit-badge">Хит</span>
-            </p>
+                <span class="catalog-item-hit-badge">Хит</span>
+              </p>
+            </a>
             <p class="catalog-item-price">
               <b>380 ₽/<span class="catalog-item-kg">кг</span></b>
             </p>
           </li>
 
           <li class="catalog-item">
-            <h3>
-              <a href="#">
+            <a href="#">
+              <h3>
                 Сливочно-клубничное с<br>
                 присыпкой из белого шоколада
-              </a>
-            </h3>
-            <p>
-              <a href="#">
+              </h3>
+              <p class="catalog-item-image">
                 <img src="img/catalog.strawberry-icecream.jpg" width="267" height="267"
                      alt="Сливочно-клубничное с присыпкой из белого шоколада">
-              </a>
-              <span class="catalog-item-hit-badge">Хит</span>
-            </p>
+                <span class="catalog-item-hit-badge">Хит</span>
+              </p>
+            </a>
             <p class="catalog-item-price">
               <b>355 ₽/<span class="catalog-item-kg">кг</span></b>
             </p>
           </li>
 
           <li class="catalog-item">
-            <h3>
-              <a href="#">
+            <a href="#">
+              <h3>
                 Сливочное крем-брюле с<br>
                 карамельной подливкой
-              </a>
-            </h3>
-            <p>
-              <a href="#">
+              </h3>
+              <p class="catalog-item-image">
                 <img src="img/catalog.cream-brulee.jpg" width="267" height="267"
                      alt="Сливочное крем-брюле с карамельной подливкой">
-              </a>
-              <span class="catalog-item-hit-badge">Хит</span>
-            </p>
+                <span class="catalog-item-hit-badge">Хит</span>
+              </p>
+            </a>
             <p class="catalog-item-price">
               <b>415 ₽/<span class="catalog-item-kg">кг</span></b>
             </p>
@@ -261,8 +259,12 @@
           <form class="subscription-form"
                 action="https://echo.htmlacademy.ru" method="post">
             <p>
-              <input class="subscription-email"
+              <label class="visually-hidden" for="subscription-email">
+                Электронная почта
+              </label>
+              <input class="subscription-email" id="subscription-email"
                      type="email" name="email" placeholder="Электроння почта">
+
               <button type="submit" class="button small-button">Отправить</button>
             </p>
           </form>
@@ -327,7 +329,10 @@
       <form class="search-form"
             action="https://echo.htmlacademy.ru" method="get">
         <p>
-          <input class="search-query"
+          <label class="visually-hidden" for="search-query">
+            Поисковый запрос
+          </label>
+          <input class="search-query" id="search-query"
                  type="search" name="q" placeholder="Что ищем?">
         </p>
       </form>
@@ -338,11 +343,15 @@
       <form class="login-form"
             action="https://echo.htmlacademy.ru" method="post">
         <p>
-          <input class="login-email"
+          <label class="visually-hidden" for="login-email">
+            Электронная почта
+          </label>
+          <input class="login-email" id="login-email"
                  type="email" name="email" placeholder="Электронная почта">
         </p>
         <p>
-          <input class="login-password"
+          <label class="visually-hidden" for="login-password">Пароль</label>
+          <input class="login-password" id="login-password"
                  type="password" name="password" placeholder="Пароль">
         </p>
         <button type="submit" class="button">Войти</button>
@@ -357,19 +366,24 @@
 
     <section class="modal modal-feedback">
       <h2>Мы обязательно вам ответим</h2>
-      <span class="modal-close">x</span>
+      <button class="modal-close" type="button">Закрыть</button>
       <form class="feedback-form"
             action="https://echo.htmlacademy.ru" method="post">
         <p>
-          <input class="feedback-name"
+          <label class="visually-hidden" for="feedback-name">Ваше имя</label>
+          <input class="feedback-name" id="feedback-name"
                  type="text" name="name" placeholder="Как вас зовут?">
         </p>
         <p>
-          <input class="feedback-email"
+          <label class="visually-hidden" for="feedback-email">
+            Ваша почта для ответа
+          </label>
+          <input class="feedback-email" id="feedback-email"
                  type="email" name="email" placeholder="Ваша почта для ответа?">
         </p>
         <p>
-          <textarea class="feedback-text"
+          <label class=visually-hidden" for="feedback-text">Ваше сообщение</label>
+          <textarea class="feedback-text" id="feedback-text"
                     name="text">Напишите что-нибудь...</textarea>
         </p>
         <button type="submit" class="button">Отправить</button>
